@@ -1,0 +1,7 @@
+interface:
+  display_name: "Sustainability Skill"
+  short_description: "科学技术绿色价值、实际利润与落地可行性综合评估与决策支持"
+  default_prompt: "Use $sustainability-skill to evaluate this technology across carbon and green-economy value, actual profitability, and deployment feasibility, with scenarios, confidence, risks, and next validation steps."
+
+policy:
+  allow_implicit_invocation: true
