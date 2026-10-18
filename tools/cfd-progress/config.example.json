@@ -1,0 +1,13 @@
+{
+  "title": "CFD 实时进度",
+  "log": "local/log.simpleFoam",
+  "status_file": "local/status.json",
+  "budget": 1000,
+  "start": 0,
+  "port": 0,
+  "refresh": 6,
+  "stale_seconds": 300,
+  "max_points": 60,
+  "coordinate_label": "求解进度标记（以日志 Time 字段为准）",
+  "momentum_reference_percent": null
+}

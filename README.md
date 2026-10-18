@@ -96,6 +96,16 @@ git clone https://github.com/wduo39419-bit/sustainability-skill.git ~/.codex/ski
 
 评估质量取决于输入证据的完整性。对于缺少真实成本、规模化实验、客户验证或碳排放数据的早期项目，本 Skill 会明确标注假设和不确定性，而不会将结果包装成精确的投资结论。
 
+## 附带工具：CFD 实时进度看板
+
+仓库提供一个独立的 [CFD 实时进度看板](tools/cfd-progress/README.md)，只读监测 OpenFOAM 日志和用户自己的诊断状态文件，显示运行预算、残差、剪切指标、动量审计及工况队列。Python 标准库即可运行，无需额外依赖。
+
+```sh
+python tools/cfd-progress/progress_view.py --demo
+```
+
+演示数据完全虚构。该工具不包含论文数据、真实算例、流场或研究结果，也不启动求解器。
+
 ## 联系方式
 
 如有建议、合作需求或应用反馈，欢迎联系：
